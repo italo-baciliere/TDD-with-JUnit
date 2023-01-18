@@ -12,6 +12,8 @@ import br.com.tdd.junit.modelo.Funcionario;
     
 public class ReajusteServiceTest {
     
+    // Abordagem onde eu passo um parametro e esse objeto recebe uma alteração
+
     @Test
     public void reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar(){
         ReajusteService service = new ReajusteService();
